@@ -1,0 +1,4 @@
+#!/bin/bash
+for n in $(seq $1); do
+node tcp.js $2 proxy.txt $3 GET &
+done

